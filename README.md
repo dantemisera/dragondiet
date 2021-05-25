@@ -1,9 +1,9 @@
 # Projeto DragonDiet
-*Repositório para projeto em JAVA para aplicação desktop.
-*Aplicação para gerenciamento de dietas e progresso para nutricionistas 
-*Versão open-source para projeto de disciplina Linguagem de Programação 3
+* Repositório para projeto em JAVA para aplicação desktop.
+* Aplicação para gerenciamento de dietas e progresso para nutricionistas 
+* Versão open-source para projeto de disciplina Linguagem de Programação 3
 
-##Decisão de Design
+## Decisão de Design
 Como implementação inicial, decidi criar as seguintes classes para essa aplicação:
 1. Alimentos(abstrata)
 2. Usuário
@@ -13,8 +13,8 @@ Como implementação inicial, decidi criar as seguintes classes para essa aplica
 6. Database
 7. Classes para interface gráfica(ainda estou estudando)
 
-*A classe Alimentos forncerá o molde para a criação de objetos alimentos. Estudarei banco de dados para conseguir implementar eficientemente um banco de dados para essa aplicação.
-*A aplicação irá conter por 'definição de fabrica' alguns alimentos em seu banco de dados. O Usuário(profissional) tem a opção de criar novos alimentos e automaticamente serão armazenados em banco de dados local.
+* A classe Alimentos forncerá o molde para a criação de objetos alimentos. Estudarei banco de dados para conseguir implementar eficientemente um banco de dados para essa aplicação.
+* A aplicação irá conter por 'definição de fabrica' alguns alimentos em seu banco de dados. O Usuário(profissional) tem a opção de criar novos alimentos e automaticamente serão armazenados em banco de dados local.
 * A seguinte associação será efetuada: Usuário *tem um/tem uns* Cliente. Cliente *tem um* Dieta e *tem um* Progresso. Dieta *tem uns* Alimentos.
 * Como não sou experiente com banco de dados, possa ser que a classe *Database* possa ser fragmentada
 * A mesma associação de classes será utilizada no esquema do banco de dados por foreign keys.
